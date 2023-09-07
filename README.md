@@ -18,24 +18,18 @@ One of the most variable investments that a lot of people find themselves involv
 ---
 ## Initial hypotheses and/or questions you have of the data, ideas
 There is likely a noticable difference in value when comparing counties, I'd like to explore this more and see if it's significant. Initial predictions are as follows: Square footage of a home and the amount of bathrooms are the most significant to the overall value of the home.
+
 ---
 ## Data dictionary
-| Feature | Definition | \n",
-    | :- | :- |\n",
-    | Senior Citizen | If a customer is a senior citizen, 0 = No, 1 = Yes |\n",
-    | Tenure | The amount of months a customer has been with or is currently with company |\n",
-    | <font color='red'>Monthly Charges</font> | Amount a customer is charged monthly |\n",
-    | Total Charges | Cumulative amount a customer has paid |\n",
-    | Gender | If a customer is male or female, 0 = Female, 1 = Male |\n",
-    | Has Partner | If a customer has a partner, 0 = No, 1 = Yes |\n",
-    | Has Dependents | If a customer has dependents, 0 = No, 1 = Yes |\n",
-    | Has Multiple Lines | If a customer has multiple lines, 0 = No, 1 = Yes |\n",
-    | <font color='red'>Contract</font> | Type of contract customer has, 0 = Month-to-month, 1 = One year, 2 = Two year|\n,
-    | Internet Service | Type of Internet Service customer has, 0 = No internet service, 1 = DSL, 2 = Fiber optic |\n,
-    | Has Automatic Payment | If a customer has automatic payment, 0 = No, 1 = Yes |\n",
-    | Has Amenities | If a customer has a majority of amenities from (tech_support, online_security, paperless_billing, streaming_movies, online_backup, streaming_tv, device_protection), 0 = No, 1 = Yes |\n,
-    | <font color='red'>Has Internet Service</font> | If a customer has internet service, 0 = No, 1 = Yes |\n",
-    | Churn (Target) | If a customer has churned, False = No, True = Yes |
+| Feature | Definition | 
+| :- | :- |
+| Beds | Number of bedrooms a house has. |
+| Baths | Number of bathrooms a house has. (1.5 = one and a half bathrooms) |
+| <font color='red'>Square Feet</font> | Area of flooring in a house |
+| Value | Property value of a house |
+| Year Built | Year of house being completed |
+| County | County the house is located in |
+
 ---
 ## Instructions or an explanation of how someone else can reproduce your project and findings (What would someone need to be able to recreate your project on their own?)
 - The data pulled from MySQLWorkbench is in the form of a .csv included in this repository, so the simplest process for replication would be to download the file immediately.
