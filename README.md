@@ -28,7 +28,7 @@ There is likely a noticable difference in value when comparing counties, I'd lik
 | <font color='red'>Square Feet</font> | Area of flooring in a house |
 | Value | Property value of a house |
 | Year Built | Year of house being completed |
-| County | County the house is located in |
+| County | County the house is located in 0 = LA, 1 = Orange, 2 = Ventura |
 
 ---
 ## Instructions or an explanation of how someone else can reproduce your project and findings (What would someone need to be able to recreate your project on their own?)
@@ -36,5 +36,7 @@ There is likely a noticable difference in value when comparing counties, I'd lik
 - There is also a wrangle.py file that will determine if the .csv exists and bring it in if it does, and if it does not, it will use a env file with MySQLWorkbench login info (username, password, and url) to obtain and cache the data
 ---
 ## Key findings, recommendations, and takeaways from your project.
-- WIP
+- Separating data by County resulted in change in optimal modeling
+- Square footage had high correlation to home value
+- Recommend creating models for each county to improve predictive strength of models
 ---
