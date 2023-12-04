@@ -31,7 +31,7 @@ There is likely a noticable difference in value when comparing counties, I'd lik
 | County | County the house is located in 0 = LA, 1 = Orange, 2 = Ventura |
 
 ---
-## Instructions or an explanation of how someone else can reproduce your project and findings (What would someone need to be able to recreate your project on their own?)
+## Methods to Reproduce
 - The data pulled from MySQLWorkbench is in the form of a .csv included in this repository, so the simplest process for replication would be to download the file immediately.
 - There is also a wrangle.py file that will determine if the .csv exists and bring it in if it does, and if it does not, it will use a env file with MySQLWorkbench login info (username, password, and url) to obtain and cache the data
 ---
